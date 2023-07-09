@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Validator</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- fontsome link for icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="./script.js" defer></script>
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="pass-field">
+            <input type="password" placeholder="Create Password">
+            <i class="fa-solid fa-eye"></i>
+        </div>
+
+        <div class="content">
+            <p>Password must contain</p>
+            <ul class="requirement-list">
+                <li>
+                    <i class="fa-solid fa-circle"></i>
+                    <span>At last 8 Charactors length</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-circle"></i>
+                    <span>At last 1 number (0..9)</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-circle"></i>
+                    <span>At last 1 lowercase letter (a..z)</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-circle"></i>
+                    <span>At last 1 Uppercase letter (A..Z)</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-circle"></i>
+                    <span>At last 1 Special Symbol (!..$)</span>
+                </li>
+                
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html>

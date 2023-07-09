@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(27, 184, 245);
+}
+
+.wrapper{
+    background: #fff;
+    width: 450px;
+    padding: 28px;
+    border-radius: 7px;
+
+}
+.wrapper .pass-field{
+    height: 65px;
+    width: 100%;
+    position: relative;
+}
+.pass-field input{
+    width: 100%;
+    height: 100%;
+    padding: 0 17px;
+    outline: none;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    border: 1px solid #999;
+}
+.pass-field i{
+    right: 18px;
+    top: 50%;
+    color: #999;
+    font-size: 1.2rem;
+    cursor: pointer;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.wrapper.content{
+    margin: 20px 0 10px;
+}
+
+.content p{
+    font-size: 1.3rem;
+
+}
+.content .required-list{
+    margin-top: 20px;
+}
+.requirement-list li{
+    list-style: none;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.requirement-list li i{
+    font-size: 0.6rem;
+    color: #aaa;
+    width: 20px;
+}
+.requirement-list li span{
+    margin-left: 12px;
+}
+.requirement-list li.valid i{
+    font-size: 1.2rem;
+    color: #19c00a;
+}
+.requirement-list li.valid span{
+    color: #19c00a;
+    font-size: 1.4rem;
+    
+}
